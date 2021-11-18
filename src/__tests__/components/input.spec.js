@@ -6,7 +6,7 @@ describe("input component", () => {
     render(
       <Input type="number" placeholder="Insira o CEP" onChange={() => {}} />
     );
-
+      
     expect(screen.getByPlaceholderText("Insira o CEP")).toBeTruthy();
   });
 });
